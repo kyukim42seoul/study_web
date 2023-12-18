@@ -1,0 +1,59 @@
+html {
+  width: 100%;
+  height: 100%;
+}
+
+#root {
+  width: 100%;
+  height: 100%;
+
+  /* Color  */
+  --black: #181818;
+  --grey1: #F6F7F9;
+  --grey2: #EEF0F3;
+  --grey3: #D7DBDF; /* border 에 보통 사용 */
+  --grey4: #9FA6AE;
+  --grey5: #757B82;
+  --white: #ffff;
+
+  --sucess: #5FCB62;
+  --warning: #E7882A;
+  --danger: #E64C40;
+  --dangerLigten: #E76157;
+  --dangerDarken: #C8443A;
+  --dangerDisabled: #F1B0AA;
+
+  --main: #1E80F0;
+  --mainLighten: #53A4F3;
+  --mainDarken: #0A6CDC;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+}
+
+div {
+  box-sizing: border-box;
+}
+
+input {
+
+}
+
+button {
+  cursor: pointer;
+  border: 1px solid var(--grey3);
+}
+
+ul {
+
+}
+
+li {
+  display: unset;
+}
+
+p {
+
+}
